@@ -18,6 +18,7 @@ div{
 
 ul{
   list-style-type: none;
+  display: inline;
 }
 
 li {
@@ -29,17 +30,63 @@ li {
   font-size: 13px;
   font-family: Arial, sans-serif;
   margin-top: 10px;
+  color: #5f6368;
 }
 
-#nav-left{
+.nav-left{
   float: left;
 }
 
-#nav-right{
+.nav-right{
   float: right;
   padding: 0 30px;
 }
 
 a{
   text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: #5f6368;
+}
+
+#sign-in{
+  background-color: blue;
+  color: white;
+  padding: 0px;
+  width: 40px;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+#search-bar{
+  margin: 20px;
+  width: 500px;
+  height: 35px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #e4e4e4;
+}
+
+#footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  border-top: 1px solid #e4e4e4;
+}
+
+input[type=submit]
+{
+  width: 15em;
+  height: 2em;
+  margin: 1em;
 }
